@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FormGym</string>
+    <string name="text_view">TextView</string>
+    <string name="submit">Submit</string>
+    <string name="idmember">ID Member</string>
+    <string name="nama">Nama</string>
+    <string name="male">Pria</string>
+    <string name="female">Wanita</string>
+    <string name="sauna">Sauna</string>
+    <string name="trainer">Trainer</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="_17">17 tahun</string>
+    <string name="address">Alamat</string>
+    <string name="title_activity_navbar">navbar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="cek_member">LIHAT DAFTAR MEMBER</string>
+    <string name="add_member">TAMBAH LIST MEMBER</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

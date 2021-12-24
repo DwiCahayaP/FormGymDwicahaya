@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="24dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="24dp"
+    tools:context=".listmenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnsimpan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIMPAN"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppinsbold"/>
+
+            <Button
+                android:id="@+id/btnexit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple_200"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Keluar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
